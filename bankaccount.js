@@ -261,7 +261,7 @@ class bankAccount {
      */
     static currentLedger() {
 	let results = [];
-	for (i=0; i<bankAccount.length; ++i) {
+	for (let i=0; i<bankAccount.length; ++i) {
             results.push(bankAccount.accounts[accountNumber[i][ownerName[i]][balance[i]]]);
         }
 	return results;
