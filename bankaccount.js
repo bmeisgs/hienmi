@@ -241,7 +241,7 @@ class bankAccount {
     static totalCapital() {
 	let countedCapital = 0;
 	for (let i=0; i<bankAccount.length; ++i) {
-            countedCapital += bankAccount.balance;
+            countedCapital += bankAccount.balance[i];
         }
 	return countedCapital;
     }
